@@ -1,0 +1,11 @@
+body{
+    background-color: aquamarine;
+}
+
+.showing {
+  display: block;
+}
+
+.hide{
+    display:none;
+}
