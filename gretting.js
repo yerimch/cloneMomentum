@@ -29,6 +29,7 @@ function paintName(userName) {
 function handlingSubmit(event) {
     event.preventDefault();
     const tempName = inputName.value;
+    console.log(tempName);
     paintName(tempName)
     saveUserName(tempName);
 }
